@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- * print_triangle
+ * print_triangle - print a triangle
  *
- * @size of triangle
+ * @size: is size of triangle
  *
  * Return: 0
  */

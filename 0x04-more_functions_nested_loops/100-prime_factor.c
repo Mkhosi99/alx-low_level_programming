@@ -4,8 +4,8 @@
 
 /**
  * main - print largest prime factor
- * new line
- * Return 0 
+ * new line follows
+ * Return: 0
  */
 int main(void)
 {

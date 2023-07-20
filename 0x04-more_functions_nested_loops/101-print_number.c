@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * print number
- * n is number to be printed
+ * print_number - print numbers
+ * @n: number to be printed
  */
 void print_number(int n)
 {
