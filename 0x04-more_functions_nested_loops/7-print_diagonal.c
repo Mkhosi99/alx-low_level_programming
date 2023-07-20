@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print a diagonal line on terminal
- * @n print number of \\ on terminal 
+ * print_diagonal - print diagonal line on terminal
+ * @n : print number of \\ on terminal
  * Return:void
  */
 
@@ -27,4 +27,4 @@ void print_diagonal(int n)
 	if (i == 0)
 		_putchar('\n');
 
-
+}
