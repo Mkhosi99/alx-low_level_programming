@@ -10,7 +10,7 @@
 char *_strcat(char *dest, char *src)
 {
 int k = -1, a;
-for (i = 0; dest[a] != '\0'; a++)
+for (a = 0; dest[a] != '\0'; a++)
 ;
 
 do {
