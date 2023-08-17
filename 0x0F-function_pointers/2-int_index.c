@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * int index - Looks for an interger in an array of intergers
+ * int_index - Looks for an interger in an array of intergers
  * @array: The intergers in the array
  * @size: The size of array
  * @cmp: Pointer to function that will compare values
