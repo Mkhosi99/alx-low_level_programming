@@ -10,9 +10,6 @@ size_t print_listint(const listint_t *var)
 {
 	size_t x = 0;
 
-	if (var == NULL)
-		return (x);
-
 	while (var != NULL)
 	{
 		printf("%d\n", var->n);
