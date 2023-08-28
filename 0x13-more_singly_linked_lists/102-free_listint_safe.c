@@ -3,7 +3,7 @@
 /**
  * free_listint_safe - Function frees listint_t list,
  *                     Function can also free lists with a loop
- *
+ * @head: Indicates head of listint_t list
  * Return: number of nodes freed
  */
 
