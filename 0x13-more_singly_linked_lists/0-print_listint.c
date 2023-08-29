@@ -17,6 +17,5 @@ size_t print_listint(const listint_t *var)
 		x++;
 		var = var->next;
 	}
-
 	return (x);
 }
