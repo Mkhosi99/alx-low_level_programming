@@ -6,7 +6,7 @@
  * @filename: Pointer to the name of file
  * @letters: Number of letters the function should read and print
  *
- * Return: If functions fails or filename is NULL return 0 
+ * Return: If functions fails or filename is NULL return 0
  *         otherwise return the actual number of bytes the function
  *         can read and print
  */
