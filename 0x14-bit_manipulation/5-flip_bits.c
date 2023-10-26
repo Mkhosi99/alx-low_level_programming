@@ -1,21 +1,25 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
-* flip_bits - Returns number of bits
-* @n: number used
-* @m: indicates number of bits
-* Return: number of bits that must be flipped
+* flip_bits - number of bits you would need to flip to get form one to another
+*@n: num to flip
+*@m: number 2
+*Return: unsigned int
 */
+
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int flp = n ^ m;
-	unsigned int add = 0;
+	int x = 0;
+	unsigned int flp = 0;
 
-	while (flp)
+	while (x <= 63)
 	{
-		add += flp & 1;
-		add >>= 1;
-	}
+		if ((n & 1) != (m & 1))
+			flp++;
 
-	return (add);
+		n >>= 1;
+		m >>= 1;
+		x++;
+	}
+	return (flp);
 }
