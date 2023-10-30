@@ -6,8 +6,8 @@ char *make_bufr(char *fle);
 void shut_fle(int fle_d);
 
 /**
- * create_buffer - function allocates 1024 bytes for a buffer
- * @file: name of file buffer storing chars
+ * make_bufr - function allocates 1024 bytes for a buffer
+ * @fle: name of file buffer storing chars
  *
  * Return: pointer to newly-allocated buffer
  */
@@ -28,8 +28,8 @@ char *make_bufr(char *fle)
 }
 
 /**
- * close_file - function closes file descriptors
- * @fd: file descriptor to be closed
+ * shut_fle - function closes file descriptors
+ * @fle_d: file descriptor to be closed
  */
 void shut_fle(int fle_d)
 {
@@ -46,8 +46,8 @@ void shut_fle(int fle_d)
 
 /**
  * main - copies contents of a file to another file
- * @argc: number of arguments passed to the program
- * @argv: array of pointers to the arguments
+ * @argcnt: number of arguments passed to the program
+ * @argvec: array of pointers to the arguments
  *
  * Return: 0 on success.
  *
