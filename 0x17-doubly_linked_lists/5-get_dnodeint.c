@@ -5,7 +5,7 @@
  * @head: double pointer to the head of the list
  * @index: index of the node to return
  *
- * Return: return NULL if node does not exist 
+ * Return: return NULL if node does not exist
  *          where index is index of the node, starting from 0
  */
 
